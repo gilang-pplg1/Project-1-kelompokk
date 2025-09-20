@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT Honda</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #6da9f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            width: 375px;
+            background-color: #ffffff;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        .back-button {
+            background-color: rgba(255, 255, 255, 0.3);
+            border: none;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 50%;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .profile-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+        .logo-container {
+            width: 180px;
+            height: 190px;
+            background-color: #f8f8f8;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .logo {
+            width: 100%;
+            height: auto;
+        }
+        .info-section {
+            padding: 0 20px 20px;
+        }
+        .info-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .info-header h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0;
+        }
+        .info-header .heart-icon {
+            color: #e57373;
+            font-size: 24px;
+            cursor: pointer;
+        }
+        .rating {
+            color: #ffc107;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        .requirements-section {
+            padding: 0 20px;
+        }
+        .requirements-section h2 {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .Persyaratan {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .Persyaratan li {
+            font-size: 15px;
+            color: #333;
+            margin-bottom: 8px;
+        }
+        .read-more {
+            color: #2196F3;
+            font-size: 14px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            margin-left: 15px;
+        }
+        .read-more .dropdown-icon {
+            margin-left: 5px;
+        }
+        .footer {
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .Tombol_daftar {
+            background-color: #2196F3;
+            color: white;
+            border: none;
+            padding: 12px 60px;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 2px 10px rgba(33, 150, 243, 0.7);
+            transition: all 0.5s ease;
+        }
+        .Tombol_daftar:hover {
+            background-color: #73ade7;
+            box-shadow: 0 2px 10px rgba(26, 27, 28, 0.7);
+            transform: scale(0.5s);
+        }
+        .show-preview {
+            text-decoration: none;
+            color: #2196F3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <button class="back-button">&lt;</button>
+        </div>
+
+        <div class="profile-section">
+            <div class="logo-container">
+                <img src="Background/Honda.png" alt="Logo Honda" class="logo">
+            </div>
+        </div>
+
+        <div class="info-section">
+            <div class="info-header">
+                <h1>PT Honda</h1>
+            </div>
+            <p class="rating">★ 4.5 (355 Reviews) <a href="#" class="show-preview">Show preview</a></p>
+        </div>
+        
+        <div class="requirements-section">
+            <h2>PERSYARATAN KERJA DI PERUSAHAAN HONDA</h2>
+            <ul class="Persyaratan">
+                <li>1. Pria/Wanita minimal lulusan SMA/SMK/S1 dari jurusan yang relevan</li>
+                <li>2. Usia 18 Tahun                                            </li>
+                <li>3. Sehat Jasmani dan Rohani                                 </li>
+                <li>4. Tinggi Badan Minimal 163 cm                              </li>
+                <li>5. Tidak buta warna                                         </li>
+                <li>6. IPK minimal 3.00                                         </li>
+                <li>7. Jurusan Teknik Industri, Teknik Mesin, Manajemen pemas...</li>
+            </ul>
+            <a href="#" class="read-more">Read more <span class="dropdown-icon">▼</span></a>
+        </div>
+
+        <div class="footer">
+            <button class="Tombol_daftar">Daftar</button>
+        </div>
+    </div>
+
+</body>
+</html>
