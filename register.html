@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <style>
+     body {
+      background-color: #6da9f7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    
+    .container {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      width: 320px;
+      text-align: center;
+      box-shadow: 0px 6px 10px rgba(0,0,0,1);
+    }
+
+    .title {
+      font-family: "Times New Roman", serif;
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .title span {
+      display: block;
+      font-size: 12px;
+      font-weight: normal;
+    }
+
+    .welcome {
+      font-size: 18px;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+    }
+
+    label {
+      font-size: 14px;
+      margin: 5px 0;
+    }
+
+    input {
+      padding: 10px;
+      border: 1px solid #4a90e2;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      text-align: center;
+    }
+
+    .Kotak {
+      background: #5898e2;
+      color: rgb(249, 246, 246);
+      border: none;
+      padding: 12px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: all 0.5s ease-in-out;
+      
+    }
+    .Kotak:hover {
+      transform: scale(0.5s);
+      background: rgba(21, 126, 219, 0.86);
+      box-shadow: 0px 6px 10px rgba(0,0,0,1);
+    }
+    .Kotak a{
+      color: white;
+      text-decoration-line: none;
+      transition:all 0.5s ease-in-out;
+    }
+    .Kotak a:hover{
+      color: white;
+      text-decoration-line: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Get a Job <span>2025</span></h1>
+    <p class="welcome">profil</p>
+
+    <form>
+      <label>Username</label>
+      <input type="text" name="username" placeholder="Name">
+
+      <label>No telp</label>
+      <input type="tel" name="no telp" placeholder="+62">
+
+      <label>Alamat</label>
+      <input type="text" name="alamat" placeholder="Jl.">
+
+      <p>Sudah memiliki akun? Masuk</p>
+
+      <button type="submit" class="Kotak"><a href="perusahaan.html">Lanjut</button>
+    </form>
+  </div>
+</body>
+</html>
